@@ -16,7 +16,10 @@ module.exports = {
 			"postInsertProductCategory" : '/productCategory/'
 		},
 		"supplier": {
-			
+			"postSupplier": "/supplier"
+		}, 
+		"product": {
+			"postProduct": "/product"
 		}
 	}
 }
