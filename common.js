@@ -9,17 +9,19 @@ module.exports = {
 			"getAllUsers" : '/users/'
 		},
 		"client" : {
-			"postCadastroCliente" : '/cliente/'
+			"postCadastroCliente" : '/client'
 		},
 		"productCategory" : {
 			"getGetAllCategory" 		: '/productCategory/',
 			"postInsertProductCategory" : '/productCategory/'
 		},
 		"supplier": {
-			"postSupplier": "/supplier"
+			"postSupplier": "/supplier",
+			"getGetAllSupplier": '/supplier'
 		}, 
 		"product": {
-			"postProduct": "/product"
+			"postProduct": "/product",
+			"getAllProducts": "/product"
 		}
 	}
 }
