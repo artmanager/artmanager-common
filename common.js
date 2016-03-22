@@ -19,7 +19,8 @@ module.exports = {
 			"postSupplier": "/supplier"
 		}, 
 		"product": {
-			"postProduct": "/product"
+			"postProduct": "/product",
+			"getAllProducts": "/product"
 		}
 	}
 }
