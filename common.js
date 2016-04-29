@@ -9,7 +9,8 @@ module.exports = {
 			"getAllUsers" : '/users/'
 		},
 		"client" : {
-			"postCadastroCliente" : '/client'
+			"postCadastroCliente" : '/client',
+			"getAllClients": '/client'
 		},
 		"productCategory" : {
 			"getGetAllCategory" 		: '/productCategory/',
@@ -22,6 +23,9 @@ module.exports = {
 		"product": {
 			"postProduct": "/product",
 			"getAllProducts": "/product"
+		},
+		"which": {
+			"postWhich": "/which"
 		}
 	}
 }
