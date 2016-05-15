@@ -6,7 +6,8 @@ module.exports = {
 		"user" : {
 			"postUsers": '/users/',
 			"putUsersId": '/users/:id',
-			"getAllUsers" : '/users/'
+			"getAllUsers" : '/users/',
+            "putEditPassword": '/users/'
 		},
 		"client" : {
 			"postCadastroCliente" : '/client',
@@ -25,7 +26,11 @@ module.exports = {
 			"getAllProducts": "/product"
 		},
 		"which": {
-			"postWhich": "/which"
-		}
+			"postWhich": "/which",
+            "getWhich": "/which"     
+		},
+        "production": {
+            "getProduction": "/production"
+        }
 	}
 }
