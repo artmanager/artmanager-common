@@ -30,7 +30,8 @@ module.exports = {
             "getWhich": "/which"     
 		},
         "production": {
-            "getProduction": "/production"
+            "getProduction": "/production",
+            "putUpdateProduction": "/production"
         }
 	}
 }
