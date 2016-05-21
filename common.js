@@ -27,11 +27,15 @@ module.exports = {
 		},
 		"which": {
 			"postWhich": "/which",
-            "getWhich": "/which"     
+            "getWhich": "/which",
+			"putUpdateEntrancePending": "/updateEntrancePending"
 		},
         "production": {
             "getProduction": "/production",
             "putUpdateProduction": "/production"
-        }
+        },
+		"report": {
+			"getReportProduct": "/reportProduct"
+		}
 	}
 }
