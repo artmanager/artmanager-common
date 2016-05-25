@@ -35,7 +35,8 @@ module.exports = {
             "putUpdateProduction": "/production"
         },
 		"report": {
-			"getReportProduct": "/reportProduct"
+			"getReportProduct": "/reportProduct",
+			"getReportSupplier": "/reportSupplier"
 		}
 	}
 }
