@@ -28,6 +28,7 @@ module.exports = {
 		"which": {
 			"postWhich": "/which",
             "getWhich": "/which",
+			"getWhichByClient": "/whichByClient",
 			"putUpdateEntrancePending": "/updateEntrancePending"
 		},
         "production": {
