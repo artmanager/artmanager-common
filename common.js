@@ -37,7 +37,8 @@ module.exports = {
         },
 		"report": {
 			"getReportProduct": "/reportProduct",
-			"getReportSupplier": "/reportSupplier"
+			"getReportSupplier": "/reportSupplier",
+			"getReportSales": "/reportSales"
 		}
 	}
 }
