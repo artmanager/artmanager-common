@@ -39,6 +39,10 @@ module.exports = {
 			"getReportProduct": "/reportProduct",
 			"getReportSupplier": "/reportSupplier",
 			"getReportSales": "/reportSales"
+		},
+		"forgotPassword": {
+			"sendEmail" : "/sendTokenToEmail",
+			"receiveToken": "/receiveToken"
 		}
 	}
 }
