@@ -27,9 +27,10 @@ module.exports = {
 		},
 		"which": {
 			"postWhich": "/which",
-            "getWhich": "/which",
+            "getWhich": "/consultWhich",
 			"getWhichByClient": "/whichByClient",
-			"putUpdateEntrancePending": "/updateEntrancePending"
+			"putUpdateEntrancePending": "/updateEntrancePending",
+			"deleteWhich": "/which"
 		},
         "production": {
             "getProduction": "/production",
