@@ -40,11 +40,15 @@ module.exports = {
 			"getReportProduct": "/reportProduct",
 			"getReportSupplier": "/reportSupplier",
 			"getReportSales": "/reportSales",
-            "postReportDateQuantityProducts": "/reportDateQuantityProducts"
+            "postReportDateQuantityProducts": "/reportDateQuantityProducts",
+            "postRerportTimeProductsToDay": "/RerportTimeProductsToDay"
 		},
 		"forgotPassword": {
 			"sendEmail" : "/sendTokenToEmail",
 			"receiveToken": "/receiveToken"
 		}
-	}
+	},
+    urlAPI: {
+        url: "http://api.artmanager.com.br"
+    }
 }
