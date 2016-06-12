@@ -41,7 +41,8 @@ module.exports = {
 			"getReportSupplier": "/reportSupplier",
 			"getReportSales": "/reportSales",
             "postReportDateQuantityProducts": "/reportDateQuantityProducts",
-            "postRerportTimeProductsToDay": "/RerportTimeProductsToDay"
+            "postRerportTimeProductsToDay": "/RerportTimeProductsToDay",
+			"postReporOneSupplier": "/ReportOneSupplier"
 		},
 		"forgotPassword": {
 			"sendEmail" : "/sendTokenToEmail",
